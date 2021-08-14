@@ -1,10 +1,10 @@
 baseurl: /kibykarni
-title: zmavlititle
-subtitle: zmavlisubtitle
+title: Zmavli Caimle
+subtitle: The blog of Zmavli Caimle. | lo kibykarni fi la zmavli caimle 
 author: Zmavli Caimle
 simple_search: http://google.com/search
-description: zmavlidesc
-name: zmavliname
+description: The blog of Zmavli Caimle.
+name: zmavli-caimle
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
