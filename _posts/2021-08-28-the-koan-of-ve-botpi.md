@@ -16,7 +16,7 @@ We know from [CLL 7.7](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_sect
 
 {% marginfigure 'otpi' '/assets/img'/otpi.jpeg ".i xu botpi?" %} This has very serious implications. Suppose I wished to refer to this bottle here. Were I to say...
 
-> `to mibypre toi ti botpi`
+> `to mibypre toi ti botpi`<br>
 > `(Me): This is a bottle.`
 
 ...I would be lying. Were I in court, I would be charged with perjury. All of my friends will turn their backs on me for my deceitful character. 
