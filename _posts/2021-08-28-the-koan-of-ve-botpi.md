@@ -6,6 +6,8 @@ description: A koan concerning the semantics of unfilled selbri.
 tags: lojban conlangs
 ---
 
+{% epigraph "The simple believe anything, but the prudent give thought to their steps." "The Bible, Proverbs 14:15" "NIV"%}
+
 Let us examine the word "botpi".
 
 > botpi: x1 is a bottle/jar/urn/flask/closable container for x2, made of material x3 with lid x4. [(Vlasisku)](https://vlasisku.lojban.org/botpi)
@@ -16,7 +18,7 @@ We know from [CLL 7.7](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_sect
 
 {% marginfigure 'otpi' '/assets/img'/otpi.jpeg ".i xu botpi?" %} This has very serious implications. Suppose I wished to refer to this bottle here. Were I to say...
 
-> `to mibypre toi ti botpi`<br>
+> `to mibypre toi ti botpi` <br>
 > `(Me): This is a bottle.`
 
 ...I would be lying. Were I in court, I would be charged with perjury. All of my friends will turn their backs on me for my deceitful character. 
