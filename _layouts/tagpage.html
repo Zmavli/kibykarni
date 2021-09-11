@@ -8,7 +8,7 @@
       <h1>Tag: {{ page.tag }}</h1>
       <ul>
       {% for post in site.tags[page.tag] %}
-      <li><a href="/kibykarni{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }}) :
+      <li><a href="/kibykarni{{ post.url }}">{{ post.title }}</a> :
       {{ post.description }}
       </li>
       {% endfor %}
