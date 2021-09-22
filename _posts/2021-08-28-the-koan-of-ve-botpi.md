@@ -30,7 +30,7 @@ In contemporary Lojban as is spoken in [La Roljbogu'e](https://discord.gg/6Gt9YX
 ## Other loglangs
 {% marginnote 'latin' "I have sometimes described Lojban as being the \"Latin of Loglangs\", because of many reasons, this being one of them." %} The idea of predicate place structures is something that basically all loglangs have some version of. 
 
- {% marginnote 'eberban' "As of the writing of this article, Eberban is very early in its development and its documentation is being rewritten. It is very possible that this will change." %} In [Eberban](https://mia-entropy.github.io/eberban/), unfilled places are even more extreme than in Lojban. Unfilled places are not filled with `zo'e` (i.e. simply an unspecified argument) but are instead considered to permit all arguments (i.e. everything can fulfill it).
+ {% marginnote 'eberban' "As of the writing of this article, Eberban is very early in its development and its documentation is being rewritten. It is very possible that this will change." %} In [Eberban](https://mia-entropy.github.io/eberban/), unfilled places are simply filled with an existence claim (i.e. there exists at least one thing that fulfills this spot). It is analogous to Lojban `su'o da`.
 
 {% marginnote 'help' "These are languages I'm familiar with. If you have knowledge of other loglangs like Gua\\spi, please email me so I can add to this section."%} In [Toaq](http://toaq.org/), unfilled places are simply deleted, akin to `zi'o`-ing away all unfilled places in Lojban selbri. 
 

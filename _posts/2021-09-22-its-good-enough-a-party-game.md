@@ -6,7 +6,8 @@ description: A party game I came up with about being average at being average.
 tags: games
 ---
 
-{% epigraph "One hundred and forty-three thousand, two hundred and twenty steps. <br> <br>
+{% epigraph "One hundred and forty-three thousand, two hundred and twenty steps. <br>
+<br>
 It was doable." "Worm, Interlude 29" "Wildbow"%}
 
 I had this idea after a friend and I talked about games and competitiveness. The objective of the game is to be the most average person at being average.
@@ -14,13 +15,13 @@ I had this idea after a friend and I talked about games and competitiveness. The
 ## Rules
 The game requires at least three players. 
 
-{% marginnote "Variation: Increase or decrease the range." %} Each player presents an integer from 0 to 100. 
+Each player presents an integer from 0 to 100.{% sidenote "1" "Variation: Increase or decrease the range." %} 
 
-{% marginnote "If there are only a few players, then this can be done orally. However, if there are many, then I suggest using small whiteboards to write on which are then held up. Alternatively, use some sort of electronic method." %} All players must present their number at the same time. 
+All players must present their number at the same time.{% sidenote "2" "If there are only a few players, then this can be done orally. However, if there are many, then I suggest using small whiteboards to write on which are then held up. Alternatively, use some sort of electronic method." %} 
 
-{% marginnote "Variation: Play continues until the total number of points awarded meets a certain threshold." %} The game lasts for at least three rounds. The number of rounds to be played is set before the game starts.
+The game lasts for at least three rounds. The number of rounds to be played is set before the game starts.{% sidenote "3" "Variation: Play continues until the total number of points awarded meets a certain threshold." %} 
 
-{% marginnote "Variation: Calculate the arithmetic mean of all numbers presented. The player whose number is closest to the mean gets a point. (However, this is too much calculation to do in a non-electronic interface and will ruin the flow.)" %} The player who presents a number that is the median of all numbers presented is awarded a point. If there are an even number of players, then the two players which are closest to the median are awarded a point.
+The player who presents a number that is the median of all numbers presented is awarded a point. If there are an even number of players, then the two players which are closest to the median are awarded a point.{% sidenote "4" "Variation: Calculate the arithmetic mean of all numbers presented. The player whose number is closest to the mean gets a point. (However, this is too much calculation to do in a non-electronic interface and will ruin the flow.)" %} 
 
 If two or more players present the same number, they are disqualified from that round and cannot score any points. They are also fully ignored in the finding of the median for scoring.
 
@@ -32,7 +33,7 @@ If all players present the same number, no one scores any points.
 
 Repeat until the set number of rounds is reached. All points are tabulated. The winner is the player whose number of points is the median among the numbers of points of all players.
 
-{% marginnote "Otherwise, there would be no winner in games with an even number of players." %} Duplicate scores are considered to only be one score for the purposes of finding the median.
+{% marginnote "5" "Otherwise, there would be no winner in games with an even number of players." %} Duplicate scores are considered to only be one score for the purposes of finding the median.
 
 ## Sample game one
 
