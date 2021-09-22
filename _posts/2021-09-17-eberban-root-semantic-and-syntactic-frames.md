@@ -15,7 +15,7 @@ Legend:
  - P0: proposition
  - P1: property
  - P2: relation
- - SX: sequence of entities
+ - SX: sequence of concretes
  - S0: sequence of events
  - S1: sequence of properties
  - S2: sequence of relations

@@ -9,7 +9,7 @@ Please feel free to email me about site content or any other topic at the addres
 
 For concerns about the site itself, either email me or raise an issue on the Github repository page.  
 
-```Email: zcaimle [stuzi sinxa] gmail [denpa bu] com```  
+```Email: zcaimle [bu'u bu] gmail [denpa bu] com```  
 ```Github:``` [@Zmavli](https://github.com/Zmavli)  
 ```Github Pages repository for this blog:``` [Zmavli/kibykarni](https://github.com/Zmavli/kibykarni)
 
