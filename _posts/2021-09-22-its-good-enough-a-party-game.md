@@ -6,7 +6,8 @@ description: A party game I came up with about being average at being average.
 tags: games
 ---
 
-
+{% epigraph "One hundred and forty-three thousand, two hundred and twenty steps. <br> <br>
+It was doable." "Worm, Interlude 29" "Wildbow"%}
 
 I had this idea after a friend and I talked about games and competitiveness. The objective of the game is to be the most average person at being average.
 

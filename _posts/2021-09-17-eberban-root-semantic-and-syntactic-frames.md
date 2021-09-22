@@ -6,6 +6,8 @@ description: A list of Eberban semantic and syntactic frames compiled by yours t
 tags: conlangs eberban resource
 ---
 
+{% epigraph "I guess I’ve been working so hard, I forgot what it’s like to be hardly working." "Michael Scott" "The Office S7E20 (2011)" %}
+
 ```
 Eberban Root Semantic Frames
 
