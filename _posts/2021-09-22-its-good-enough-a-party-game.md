@@ -105,6 +105,6 @@ There is a tie.
 
 ## Other variations
 
-Another idea is to have a stack of n cards labeled 1 to n. Each player is given m+1 cards where n is the number of rounds to be played. To present a number, they present the card. All presented cards are discarded at the end of each round.
+Another idea is to have a stack of n cards labeled 1 to n. Each player is given m+1 cards where m is the number of rounds to be played. To present a number, they present the card. All presented cards are discarded at the end of each round.
 
 Yet another is to have players list down as many numbers as there are rounds, and all of them are presented and scored simultaneously. Their first number is their number for the first round, the second for the second, and so forth. This detracts from the excitement of the progressing game. However, in some instances, it becomes mathematically impossible for certain players to win in the middle-to-late stages of the game. This eliminates that sad possibility. This could even be treated as a single round in and of itself, creating even more super fun added layers of delicious median-ny nesting!
