@@ -2,7 +2,7 @@
 title: It's Good Enough -- A Party Game
 layout: post
 date: 2021-09-22
-description: A party game I came up with about being average at being average.
+description: A party game about being average at being average.
 tags: games
 ---
 

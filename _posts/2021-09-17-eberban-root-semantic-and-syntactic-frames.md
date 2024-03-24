@@ -2,7 +2,7 @@
 title: Eberban Root Semantic and Syntactic Frames
 layout: post
 date: 2021-09-17
-description: A list of Eberban semantic and syntactic frames compiled by yours truly.
+description: A list of Eberban semantic and syntactic frames.
 tags: conlangs eberban resource
 ---
 

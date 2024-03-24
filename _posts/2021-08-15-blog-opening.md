@@ -3,7 +3,7 @@ title: Blog Opening
 layout: post
 date: 2021-08-15
 tags: meta
-description: It is with great pleasure that I, Zmavli Caimle, announce the opening of my blog.
+description: The blog of Zmavli Caimle is hereby opened.
 ---
 {% epigraph "A beginning is the time for taking the most delicate care that the balances are correct. This every sister of the Bene Gesserit knows." 'Frank Herbert' 'Dune (1965)' %}
 
