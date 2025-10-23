@@ -3,7 +3,6 @@ title: It's Good Enough -- A Party Game
 layout: post
 date: 2021-09-22
 description: A party game about being average at being average.
-tags: games
 ---
 
 {% epigraph "One hundred and forty-three thousand, two hundred and twenty steps. <br>

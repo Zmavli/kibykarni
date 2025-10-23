@@ -3,7 +3,6 @@ title: The Koan of Apple Desires
 layout: post
 date: 2021-09-05
 description: A koan concerning wanting. A lesson on tu'a and jai.
-tags: lojban conlangs
 ---
 
 {% epigraph "Be prepared to appreciate what you meet." 'Frank Herbert' 'Dune (1965)' %}

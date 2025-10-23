@@ -1,5 +1,5 @@
 ---
-layout: full-width
+layout: default
 title: Contact
 tags: meta
 description: Contact information of Zmavli Caimle.
@@ -7,10 +7,7 @@ description: Contact information of Zmavli Caimle.
 
 Please feel free to email me about site content or any other topic at the addresses below. Typos, things you want to show, post ideas, and other things are all welcome.
 
-For concerns about the site itself, please email me or raise an issue on the Github repository page.  
+For concerns about the site itself, please email me.  
 
 ```Email: zcaimle [bu'u bu] gmail [denpa bu] com```  
-```Github:``` [@Zmavli](https://github.com/Zmavli)  
-```Github Pages repository for this blog:``` [Zmavli/kibykarni](https://github.com/Zmavli/kibykarni)
-
 

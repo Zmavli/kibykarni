@@ -3,7 +3,6 @@ title: The Koan of Ve Botpi
 layout: post
 date: 2021-08-28
 description: A koan concerning the semantics of unfilled selbri places.
-tags: lojban conlangs
 ---
 
 {% epigraph "The simple believe anything, but the prudent give thought to their steps." "The Bible, Proverbs 14:15" "NIV"%}
