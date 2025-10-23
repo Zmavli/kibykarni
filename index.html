@@ -1,4 +1,6 @@
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,22 +12,29 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
- {% if site.tags != "" %}
-   {% include collecttags.html %}
- {% endif %}
+ 
+   
 
 
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+
+
+
+ 
+
+
+
+  <title>Zmavli Caimle</title>
+  <meta name="description" content="The blog of Zmavli Caimle.">
 
   <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
-  {% if site.data.options.lato_font_load %}
+  
     <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
-  {% endif %}
+  
   
   <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
-  {% if site.data.options.mathjax %}
+  
     <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: [
@@ -51,12 +60,65 @@
 </script>
 
  <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
-  {% endif %}
+  
 
-  <link rel="stylesheet" type="text/css" href="{{ "/css/tufte.css" | prepend: site.baseurl }}">
-  <!-- <link rel="stylesheet" type="text/css" href="{{ "/css/print.css" | prepend: site.baseurl }}" media="print"> -->
+  <link rel="stylesheet" type="text/css" href="/kibykarni/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/kibykarni/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="/kibykarni/">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="Zmavli Caimle" href="/kibykarni/feed.xml" />
 </head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/kibykarni/"><img class="badge" src="/kibykarni/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/kibykarni/archive">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/kibykarni/contact">Contact</a>
+		    
+	    
+  	
+		
+  	
+		
+  	
+		
+		    
+		      <a href="/kibykarni/jhana">Jhana</a>
+		    
+	    
+  	
+		
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>You are hereby welcomed to the blog of Zmavli Caimle.</h1>
+<p><big><em>.i ca’e do zanvi’e fi lo kibykarni be fi la zmavli caimle</em></big></p>
+
+
+    </article>
+    <span class="print-footer"> - Zmavli Caimle</span>
+    <footer>
+  <hr class="slender">
+<div class="credits">
+<span>&copy; 2021-2025 &nbsp;&nbsp;ZMAVLI CAIMLE</span></br> <br>
+<span>This site is created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

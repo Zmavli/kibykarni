@@ -1,31 +1,523 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Zmavli Caimle</title>
+    <description>The blog of Zmavli Caimle.</description>
+    <link>/kibykarni/</link>
+    <atom:link href="/kibykarni/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 23 Oct 2025 14:01:43 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Oct 2025 14:01:43 +0800</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>It&apos;s Good Enough -- A Party Game</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;One hundred and forty-three thousand, two hundred and twenty steps. &lt;br /&gt;
+&lt;br /&gt;
+It was doable.&lt;/p&gt;&lt;footer&gt;Worm, Interlude 29, &lt;cite&gt;Wildbow&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;I had this idea after a friend and I talked about games and competitiveness. The objective of the game is to be the most average person at being average.&lt;/p&gt;
+
+&lt;h2 id=&quot;rules&quot;&gt;Rules&lt;/h2&gt;
+&lt;p&gt;The game requires at least three players.&lt;/p&gt;
+
+&lt;p&gt;Each player presents an integer from 0 to 100.&lt;label for=&quot;1&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Variation: Increase or decrease the range. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;All players must present their number at the same time.&lt;label for=&quot;2&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;If there are only a few players, then this can be done orally. However, if there are many, then I suggest using small whiteboards to write on which are then held up. Alternatively, use some sort of electronic method. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The game lasts for at least three rounds. The number of rounds to be played is set before the game starts.&lt;label for=&quot;3&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Variation: Play continues until the total number of points awarded meets a certain threshold. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The player who presents a number that is the median of all numbers presented is awarded a point. If there are an even number of players, then the two players which are closest to the median are awarded a point.&lt;label for=&quot;4&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;4&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Variation: Calculate the arithmetic mean of all numbers presented. The player whose number is closest to the mean gets a point. (However, this is too much calculation to do in a non-electronic interface and will ruin the flow.) &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;If two or more players present the same number, they are disqualified from that round and cannot score any points. They are also fully ignored in the finding of the median for scoring.&lt;/p&gt;
+
+&lt;p&gt;If all players but two present the same number, the two players who are different score one point each.&lt;/p&gt;
+
+&lt;p&gt;If all players but one present the same number, the one player who is different scores a point.&lt;/p&gt;
+
+&lt;p&gt;If all players present the same number, no one scores any points.&lt;/p&gt;
+
+&lt;p&gt;Repeat until the set number of rounds is reached. All points are tabulated. The winner is the player whose number of points is the median among the numbers of points of all players.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;5&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;5&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Otherwise, there would be no winner in games with an even number of players. &lt;/span&gt; Duplicate scores are considered to only be one score for the purposes of finding the median.&lt;/p&gt;
+
+&lt;h2 id=&quot;sample-game-one&quot;&gt;Sample game one&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Players&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 1&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 3&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 4&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 5&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Alice&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;99&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;73&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;88&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;97&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bob&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;22&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;70&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;78&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Carol&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;75&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;39&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dave&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;49&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;25&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;97&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;27&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Winner?&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Carol, Dave&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Dave&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Bob, Dave&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Carol, Alice&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Carol, Bob&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;sample-scoring-one&quot;&gt;Sample scoring one&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Players&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Scores&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Alice&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bob&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Carol&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dave&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Winner?&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Bob!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Bob is the winner as Carol and Dave have the same score – their scores are treated as one number. In \(\{1, 2, 3\}\), the median is 2.&lt;/p&gt;
+
+&lt;h2 id=&quot;sample-game-two&quot;&gt;Sample game two&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Players&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 1&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 3&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 4&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 5&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Xander&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;87&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;55&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;23&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;22&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;83&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;55&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;66&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;89&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;59&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Winner?&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;No one&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;sample-scoring-two&quot;&gt;Sample scoring two&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Players&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Scores&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Xander&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Winner?&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Tie.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There is a tie.&lt;/p&gt;
+
+&lt;h2 id=&quot;ties&quot;&gt;Ties?&lt;/h2&gt;
+
+&lt;p&gt;&lt;label for=&quot;Simpler variation: Continue play one round at a time until the tie is broken.&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Simpler variation: Continue play one round at a time until the tie is broken.&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt; &lt;/span&gt; In keeping with the theme of medianness, ties are resolved in the following manner. The first and last rounds are ignored in scoring. If this is enough to resolve the tie, then the winner is declared. Otherwise, remove the second and second-to-last rounds and so on until a winner is found. In this case, the scores now become…&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Players&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 3&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Round 4&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Xander&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;87&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;55&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;83&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;55&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;66&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;59&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Winner?&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Zachary&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Players&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Scores&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Xander&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yvonne&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Zachary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Winner?&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Yvonne!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;other-variations&quot;&gt;Other variations&lt;/h2&gt;
+
+&lt;p&gt;Another idea is to have a stack of n cards labeled 1 to n. Each player is given m+1 cards where m is the number of rounds to be played. To present a number, they present the card. All presented cards are discarded at the end of each round.&lt;/p&gt;
+
+&lt;p&gt;Yet another is to have players list down as many numbers as there are rounds, and all of them are presented and scored simultaneously. Their first number is their number for the first round, the second for the second, and so forth. This detracts from the excitement of the progressing game. However, in some instances, it becomes mathematically impossible for certain players to win in the middle-to-late stages of the game. This eliminates that sad possibility. This could even be treated as a single round in and of itself, creating even more super fun added layers of delicious median-ny nesting!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/kibykarni/articles/21/its-good-enough-a-party-game</link>
+        <guid isPermaLink="true">/kibykarni/articles/21/its-good-enough-a-party-game</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Eberban Root Semantic and Syntactic Frames</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;I guess I’ve been working so hard, I forgot what it’s like to be hardly working.&lt;/p&gt;&lt;footer&gt;Michael Scott, &lt;cite&gt;The Office S7E20 (2011)&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Eberban Root Semantic Frames
+
+Legend:
+ - Xd: distributive concrete (entity or event)
+ - Xc: collective concrete (entity or event)
+ - P0: proposition
+ - P1: property
+ - P2: relation
+ - SX: sequence of concretes
+ - S0: sequence of events
+ - S1: sequence of properties
+ - S2: sequence of relations
+ - Nn: number
+
+MUI:   nullary
+
+MI:    Xd
+MERE:  Xd Xd
+VAN:   Xd Xd Xd
+ZAOR:  Xd Xd P0
+ZDIR:  Xd Xd P1
+TCON:  Xd Xd P2
+ZDE:   Xd Xd Nn
+BLAE:  Xd Xc
+MARA:  Xd P0
+FUIR:  Xd P0 Xd
+MORE:  Xd P1
+ZMI:   Xd P1 Xc
+SFO:   Xd P2
+FNIU:  Xd Nn
+
+ZA:    Xc
+TSEN:  Xc Xd
+MARNE: Xc Xc
+CONE:  Xc Xc S2
+CONI:  Xc Xc Nn S2
+GZA:   Xc P0
+MOLAI: Xc P1
+TUN:   Xc P1 Xc
+SPEU:  Xc P2
+BEIN:  Xc Sx
+CANE:  Xc S1
+CANI:  Xc Nn S1
+MENE:  Xc Nn Xc Sx
+
+SENI:  P0 Xc
+BZEN:  P0 P0
+SEN:   P0 P0 P0
+
+TSE:   Nn Xc
+CNI:   Nn Sx P1
+CENI:  Nn S0
+MUAL:  Nn Nn
+
+CNE:   Sx P1
+CENE:  S0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Eberban Root Syntactic Frames
+
+Legend:
+ - X: concrete (entity or event)
+ - P: predicate (proposition, property or relation)
+ - S: sequence
+ - N: number
+
+
+MUI:  nullary
+
+MI:   X           subtypes: ZA
+MERE: X X         subtypes: BLAE, TSEN, MARNE
+VAN:  X X X
+ZAOR: X X P       subtypes: ZDIR, TCON
+ZDE:  X X N
+CONI: X X N S
+MARA: X P         subtypes: MORE, SFO, GZA, MOLAI, SPEU
+FUIR: X P X       subtypes: ZMI, TUN
+BEIN: X S         subtypes: CANE
+FNIU: X N
+MENE: X N X S
+CANI: X N S
+
+SENI: P X
+BZEN: P P
+SEN:  P P P
+
+TSE:  N X
+CENI: N S
+CNI:  N S P
+MUAL: N N
+
+CENE: S
+CNE:  S P
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 17 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/kibykarni/articles/21/eberban-root-semantic-and-syntactic-frames</link>
+        <guid isPermaLink="true">/kibykarni/articles/21/eberban-root-semantic-and-syntactic-frames</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Koan of Apple Desires</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;Be prepared to appreciate what you meet.&lt;/p&gt;&lt;footer&gt;Frank Herbert, &lt;cite&gt;Dune (1965)&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;label for=&quot;apple1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;apple1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mi djica lo plise&lt;/code&gt; &lt;/span&gt; Let us consider the English sentence &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I want an apple.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;apple2&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;apple2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Respectively, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nu ponse lo plise&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nu catlu lo plise&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nu citka lo plise&lt;/code&gt; &lt;/span&gt; If you think about it, it is totally nonsensical. Why? Well, you cannot desire objects. You can only really desire events. When you say &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I want an apple.&lt;/code&gt; you are really saying that you want an event &lt;em&gt;related to&lt;/em&gt; or &lt;em&gt;concerning&lt;/em&gt; the apple. Perhaps you want to own the apple, or look at the apple, or eat the apple. To translate the vagueness of English &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I want an apple.&lt;/code&gt; into Lojban while not assuming any further information, we might say something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;djica lo nu lo plise cu co&apos;e&lt;/code&gt; &lt;label for=&quot;cohe&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cohe&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zo&apos;e&lt;/code&gt; is to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;co&apos;e&lt;/code&gt; what &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;da&lt;/code&gt; is to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;broda&lt;/code&gt;. It’s an elliptical selbri. &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;To shorten this, Lojban has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tu&apos;a&lt;/code&gt;. It’s an abbreviation.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;suhu&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;suhu&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;su&apos;u&lt;/code&gt; is the most general member of selma’o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NU&lt;/code&gt; and can represent any of them. &lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tu&apos;a X == lo su&apos;u X co&apos;e&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;where X is a sumti&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Our new and improved sentence is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;djica tu&apos;a lo plise&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-this-jai-i-keep-hearing-everywhere&quot;&gt;What’s this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jai&lt;/code&gt; I keep hearing everywhere?&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jai&lt;/code&gt; is weird. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jai&lt;/code&gt; attaches to selbri rather than sumti. It causes the first place of the selbri to be wrapped in an abstraction.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jai broda == tu&apos;a zo&apos;e broda == lo su&apos;u zo&apos;e co&apos;e cu broda&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is often used in lieu of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tu&apos;a&lt;/code&gt;. Since members of selma’o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LE&lt;/code&gt; extract the x1 place of selbri, by turning the x1 place of the enclosed selbri into an abstraction, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jai&lt;/code&gt; achieves the same effect as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tu&apos;a&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lo jai broda == tu&apos;a lo broda&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;.i .ui ko zmadu cilre &lt;strong&gt;tu’a&lt;/strong&gt; lo jbobau&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 05 Sep 2021 00:00:00 +0800</pubDate>
+        <link>/kibykarni/articles/21/the-koan-of-apple-desires</link>
+        <guid isPermaLink="true">/kibykarni/articles/21/the-koan-of-apple-desires</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Koan of Ve Botpi</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;The simple believe anything, but the prudent give thought to their steps.&lt;/p&gt;&lt;footer&gt;The Bible, Proverbs 14:15, &lt;cite&gt;NIV&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;Let us examine the word “botpi”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;botpi: x1 is a bottle/jar/urn/flask/closable container for x2, made of material x3 with lid x4. &lt;a href=&quot;https://vlasisku.lojban.org/botpi&quot;&gt;(Vlasisku)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We know from &lt;a href=&quot;https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/section-zohe-cohe-series.html&quot;&gt;CLL 7.7&lt;/a&gt; that unfilled selbri places default to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zo&apos;e&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The cmavo of the zo’e-series represent indefinite, unspecified sumti. The cmavo zo’e represents an elliptical value for this sumti place; it is the optional spoken place holder when a sumti is skipped without being specified.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;label for=&quot;otpi&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;otpi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/kibykarni//assets/img/otpi.jpeg&quot; /&gt;&lt;br /&gt;.i xu botpi?&lt;/span&gt; This has very serious implications. Suppose I wished to refer to this bottle here. Were I to say…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;to mibypre toi ti botpi&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(Me): This is a bottle.&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…I would be lying. Were I in court, I would be charged with perjury. All of my friends will turn their backs on me for my deceitful character.&lt;/p&gt;
+
+&lt;p&gt;Why is this so? It is because when I say &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.i ti botpi&lt;/code&gt;, I am actually saying &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.i ti botpi zo&apos;e zo&apos;e zo&apos;e&lt;/code&gt;. I am claiming that there exists at least one thing that satisfies &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ve botpi&lt;/code&gt;, or the cap. Given that the bottle has no cap, it is therefore not &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;botpi&lt;/code&gt;, but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;botpi fo zi&apos;o&lt;/code&gt;&lt;label for=&quot;ziho&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ziho&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The cmavo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zi&apos;o&lt;/code&gt; deletes a place from a selbri. See &lt;a href=&quot;https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/section-zohe-cohe-series.html&quot;&gt;CLL 7.7&lt;/a&gt; &lt;/span&gt;. The wise jbopre ought to consider carefully the terbri of their selbri. &lt;label for=&quot;otpi&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;otpi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;There exists a jbofuvi &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;otpi&lt;/code&gt;, meaning simply &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x1 is a bottle/jar/urn/flask.&lt;/code&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;In contemporary Lojban as is spoken in &lt;a href=&quot;https://discord.gg/6Gt9YXwJEX&quot;&gt;La Roljbogu’e&lt;/a&gt;, unfilled places usually are taken to mean &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zo&apos;e jonai zi&apos;o&lt;/code&gt;. This “forces” one to obey &lt;a href=&quot;https://www.sas.upenn.edu/~haroldfs/dravling/grice.html&quot;&gt;Grice’s Maxims of Quantity and Relation&lt;/a&gt;. If a place is truly important, one ought to explicitly say &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zo&apos;e&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-loglangs&quot;&gt;Other loglangs&lt;/h2&gt;
+&lt;p&gt;&lt;label for=&quot;latin&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;latin&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;I have sometimes described Lojban as being the “Latin of Loglangs”, because of many reasons, this being one of them. &lt;/span&gt; The idea of predicate place structures is something that basically all loglangs have some version of.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;eberban&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;eberban&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;As of the writing of this article, Eberban is very early in its development and its documentation is being rewritten. It is very possible that this will change. &lt;/span&gt; In &lt;a href=&quot;https://mia-entropy.github.io/eberban/&quot;&gt;Eberban&lt;/a&gt;, unfilled places are simply filled with an existence claim (i.e. there exists at least one thing that fulfills this spot). It is analogous to Lojban &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;su&apos;o da&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;help&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;help&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;These are languages I’m familiar with. If you have knowledge of other loglangs like Gua\spi, please email me so I can add to this section. &lt;/span&gt; In &lt;a href=&quot;http://toaq.org/&quot;&gt;Toaq&lt;/a&gt;, unfilled places are simply deleted, akin to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zi&apos;o&lt;/code&gt;-ing away all unfilled places in Lojban selbri.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further reading&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mw.lojban.org/papri/all_places_equally_important_gotcha&quot;&gt;all places equally important gotcha&lt;/a&gt;: Partly the source of this post.
+&lt;a href=&quot;https://mw.lojban.org/papri/inconsistent_Gismu_Place_Structures_Gotcha&quot;&gt;inconsistent Place Structures Gotcha&lt;/a&gt;: Especially annoying given standard place semantics.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 28 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/kibykarni/articles/21/the-koan-of-ve-botpi</link>
+        <guid isPermaLink="true">/kibykarni/articles/21/the-koan-of-ve-botpi</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Blog Opening</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;A beginning is the time for taking the most delicate care that the balances are correct. This every sister of the Bene Gesserit knows.&lt;/p&gt;&lt;footer&gt;Frank Herbert, &lt;cite&gt;Dune (1965)&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;It is with great pleasure&lt;/span&gt;  that I, Zmavli Caimle, announce the opening of my blog on the year of our Lord, two thousand and twenty-one, on the fifteenth of August.&lt;/p&gt;
+
+&lt;p&gt;Wish it all the best.&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;Every parent of a teenager gets used to it: the moment in a child&apos;s life when he or she decides that certain facts are just too much trouble to explain to Mom or Dad. The parents can&apos;t, and needn&apos;t, know every last little thing. They just have to accept this, be content with what they can glean on their own, and move on.&lt;/p&gt;&lt;footer&gt;Neal Stephenson, &lt;cite&gt;Seveneves (2015)&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 15 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/kibykarni/articles/21/blog-opening</link>
+        <guid isPermaLink="true">/kibykarni/articles/21/blog-opening</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>
