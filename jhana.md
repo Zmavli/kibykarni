@@ -6,7 +6,7 @@ layout: default
 
 # Zmavli Caimle's Jhana Coaching
 
-{% marginnote "1" "For the month of October 2025 only, I have a 20% grand opening discount on all services. Additional discounts are also available for people 25 years old or younger, and people living in below average PPP per capita countries." %}
+{% marginnote "1" "Discounts are available for people 25 years old or younger, and people living in below average PPP per capita countries." %}
 
 {% newthought 'The jhanas are altered mental states' %} that one can access with sustained collectedness, and which do not require any psychoactive substances to access.  The experiences range from rapture, joy, contentment, to tranquility.
 
@@ -41,10 +41,10 @@ Hans Ting, WhiteBox AI interpretability program graduate
 
 # Service offerings
 
-**Trial  |  one session (2 hours): USD 120**  {% marginnote "2" "For the month of October 2025 only, USD 96" %}  
+**Trial  |  one session (2 hours): USD 120**   
 I offer singular sessions if you want to find out how I teach, or if you have a very specific and small jhana-related goal in mind.
 
-**Glimpse of jhana  |  five sessions (10 hours): USD 500**  {% marginnote "3" "For the month of October 2025 only, USD 400" %}  
+**Glimpse of jhana  |  five sessions (10 hours): USD 500**   
 My core offering is teaching you the basics of jhana meditation and helping you access first or second jhana for at least a few seconds. The vast majority of my clients are able to do so with 10 hours of coaching and meditation total. This is also around the same duration as my in-person workshops, which are 8 hours long.
 
 One to two sessions a week is my scheduling recommendation. It is not necessary to meditate on your own or every day to see results — I personally do not have a daily meditation habit and only do so when I feel it is an auspicious time — though you may do so.
@@ -56,9 +56,9 @@ I can also teach you on a longer term with asynchronous chatting alongside synch
 
 Sessions are prepaid. I accept payment with Wise bank transfer, PayPal, and cryptocurrency.
 
-You may reschedule a session that is seven or more days away for free. Past that, you may reschedule a session that is three or more days away for 50% the session price. You cannot reschedule a session past that. No-shows will not be refunded. 
+You may reschedule a session that is seven or more days away for free. Past that, you may reschedule a session that is three or more days away for 50% the session price. You cannot reschedule a session past that. No-shows will not be refunded. You can reschedule or cancel a session once per package for free.
 
-If I have to cancel a session, or if circumstances on my end cut off a session partway, I will give you another session for free — but not if they are on your end.
+If I have to cancel a session, or if circumstances on my end cut off a session partway, I will give you another session for free.
 
 I do not offer a guarantee. Since jhana is internal, I cannot conclusively and definitively determine whether or not you did access them — though in my experience, there is typically an unmistakable phase change.
 
