@@ -16,7 +16,7 @@ I coach people in how to access the jhanas with audio calls. It is not necessary
 
 My teaching style is based on several short meditation sits in a two hour session with feedback after each one to facilitate iterative improvement. I structure my teaching such that it is possible for you to continue a meditation practice independently, if you so choose.
 
-Currently, I offer a 30 minute intro call for free. We can talk about whether my teaching or jhana meditation are a good fit for you. I do my calls over Discord or Signal. Book one here: [https://novacal.io/zmavli/intro-call](https://novacal.io/zmavli/intro-call)
+Currently, I offer a 30 minute intro call for free. We can talk about whether my teaching or jhana meditation are a good fit for you. I do my calls over Discord or Signal. Book one here: [https://cal.com/zmavli-caimle-sx0lz6/intro](https://cal.com/zmavli-caimle-sx0lz6/intro)
 
 You can also email me at zcaimle [a t] gmail [d o t] com, DM me on X/Twitter @zmavli, or on Discord at @zmavli. My service offerings are listed below.
 
