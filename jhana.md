@@ -28,16 +28,23 @@ You can also email me at zcaimle [a t] gmail [d o t] com, DM me on X/Twitter @zm
 
 *I'd recommend Zmavli's coaching to anyone curious about jhanas and looking for instruction that feels less like "woo" and more like a pair programming session with a skilled engineer."*
 
-Konstantine Sadov, machine learning researcher, [https://www.ksadov.com/](https://www.ksadov.com/)
+[Konstantine Sadov, machine learning researcher](https://www.ksadov.com/)
 
 *"receiving instruction from zmavli, i appreciated the practicality and clarity. i got significant results after only three instruction sessions, managing to end up for some minutes in a state of exhilarating buzzing sensation, that is intense psychologically in a buzzing, intense and somewhat energizing way. (plausibly jhana!). this experience was intriguing and pleasant in novel ways. i learned new meditation objects, and the instruction re-energized some of my curiosity towards meditation in general."*
 
-xylix, programmer, [https://xylix.fi/about](https://xylix.fi/about)
+[xylix, programmer](https://xylix.fi/about)
 
 *"well honestly i quite liked your teaching, it was straightforward and made me feel like jhana was this attainable thing given some methods and ideas instead of this far away mystical thing of eastern religion"*
 
 Hans Ting, WhiteBox AI interpretability program graduate
 
+*"I’ve already been meditating since 2019, but Zmavli’s jhana tutorial still introduced new techniques that helped me overcome some blockers in my meditation practices. Most significantly, it has freed me from the constraints of guided meditation and allowed me to do independent meditation in silence.*
+
+*I’m not someone who is that much interested in the elevated states of happiness that jhana promises, but I do care a lot with how it has recently helped me overcome challenges with fragmented sleep and waking up tired. I recalled Zmavli’s instructions and did 5 to 15-minute sits before sleeping or taking a nap, and I was quite surprised with the results.*
+
+*It was also great for meditating when feeling unproductive or overwhelmed. It helped to recenter my energy so I could better sustain it through the demands of a full-time job, freelance gigs, and life maintenance tasks (gym, living alone, etc.)."*
+
+[Ma. Donna Dane, Writer](https://www.linkedin.com/in/ma-donna-dane-074328258/)
 
 # Service offerings
 
